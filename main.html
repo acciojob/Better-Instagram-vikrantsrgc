@@ -7,36 +7,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Better Instagram</title>
     <style>
-        /* Styles for the draggable elements */
-        .image {
-            background-color: lightgray;
-            height: 300px;
-            width: 200px;
-            margin: 20px;
-            text-align: center;
-            line-height: 300px;
-            font-size: 18px;
-            cursor: move;
-            border: 1px solid #555;
-        }
+       #div1 {
+  background-image: url("https://picsum.photos/id/237/200/300");
+  height: 300px;
+  width: 200px;
+  margin: 20px;
+}
 
-        /* Flex container for aligning the drag elements */
-        .flex {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-        }
+#div2 {
+  background-image: url("https://picsum.photos/seed/picsum/200/300");
+  height: 300px;
+  width: 200px;
+  margin: 20px;
+}
 
-        /* Visual cue when an element is being dragged over another */
-        .selected {
-            border: 2px dashed blue;
-        }
+#div3 {
+  background-image: url("https://picsum.photos/200/300?grayscale");
+  height: 300px;
+  width: 200px;
+  margin: 20px;
+}
 
-        /* Optional: Add styles for the header */
-        h1 {
-            text-align: center;
-        }
+#div4 {
+  background-image: url("https://picsum.photos/200/300/");
+  height: 300px;
+  width: 200px;
+  margin: 20px;
+}
+
+#div5 {
+  background-image: url("https://picsum.photos/200/300.jpg");
+  height: 300px;
+  width: 200px;
+  margin: 20px;
+}
+
+#div6 {
+  background-image: url("https://picsum.photos/id/102/200/300");
+  height: 300px;
+  width: 200px;
+  margin: 20px;
+}
+
+div.container {
+  border: 5px solid #555;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selected {
+  border: 5px solid rgb(0, 195, 255);
+}
+
+p {
+  text-align: center;
+}
+
+button {
+  margin: 20px;
+}
     </style>
 </head>
 
